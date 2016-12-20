@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private void initialView() {
         setContentView(R.layout.activity_main);
         llAnimObj = (LinearLayout) findViewById(R.id.llAnimObj);
-        btnZoomOut =   (Button) findViewById(R.id.btnZoomOut);
-        btnZoomIn =   (Button) findViewById(R.id.btnZoomIn);
+        btnZoomOut = (Button) findViewById(R.id.btnZoomOut);
+        btnZoomIn = (Button) findViewById(R.id.btnZoomIn);
         btnZoomIn.setEnabled(false);
 
         //Initialize animation
